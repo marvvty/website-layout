@@ -1,0 +1,120 @@
+body{
+    font-family: Lexend;
+    margin: 0;
+    padding: 0;
+    background: white;
+    height: 100vh;
+}
+.hero-section {
+    display: flex;
+    padding-left: 120px;
+    width: 100%;
+    height: 720px;
+}
+.content-side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 16px;
+}
+nav{
+    height: 46px;
+    padding-top: 40px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+p.logo{
+    padding-left: 10px;
+    color: #1B1C57;
+    font-weight: 700;
+    text-align: center;
+}
+.title-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 500px;
+    height: 500px;
+}
+h1{
+    font-size:40px;
+    color: #1B1C57;
+    width: 470px;
+}
+.title p{
+    color: #626687;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 510px;
+}
+.ss{
+    color: #1B1C57;-webkit-text-stroke-color: 2px #1B1C57;
+}
+.title{
+    width: 500px;
+    height: 230px;
+    gap:16px;
+}
+.search {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    width: 100%;
+    height: 54px;
+    border-radius: 32px;
+    border: 1px solid #E0E3EB;
+}
+.search-input{
+    padding-left: 22px;
+    width: 65%;
+    border: 0px;
+    font-size: 14px;
+    font-family: Lexend, sans-serif;
+    font-weight: 500;
+    color: #6B7280;
+    background: white;
+    outline: none;
+}
+.search-input::placeholder{
+    color:#888B97;
+}
+.search-button{
+    display: flex;
+    padding: 16px;
+    background-color: #10B981;
+    border-radius: 32px;
+    font-family: Lexend, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+.search img {
+    padding-left: 20px;
+}
+.partership p{
+    color:#888B97;
+    font-weight: 400;
+    line-height: 32px;
+}
+.frame{
+    display: flex;
+    flex-direction: row;
+    gap:38px;
+    width: 427px;
+}
+.images{
+    width: 720px;
+    height: 720px;
+    border-bottom-left-radius: 80px;
+    background: linear-gradient(#0C1537);
+}
+.images img{
+    opacity: 90%;
+    border-bottom-left-radius: 80px;
+    background-color: linear-gradient(#0C1537);
+}
